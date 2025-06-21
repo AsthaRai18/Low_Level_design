@@ -1,0 +1,3 @@
+public enum OrderStatus {
+    ORDER_PLACED, ORDER_CONFIRMED, ORDER_SHIPPED, ORDER_CANCELLED;
+}
