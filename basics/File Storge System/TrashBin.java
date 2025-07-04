@@ -11,7 +11,7 @@ class TrashBin {
 
     public void restoreFile(FileItem file, Folder folder) {
         if (trashedFiles.remove(file)) {
-            folder.addFile(file);
+            // folder.addFile(file);
             System.out.println("Restored file: " + file.getName());
         } else {
             System.out.println("File not found in trash: " + file.getName());
